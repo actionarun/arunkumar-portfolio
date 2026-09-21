@@ -1,0 +1,120 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.main-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--card-color, var(--cyan));
+  border-radius: 12px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.main-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+}
+
+.mc-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mc-badge {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--cyan);
+  background: rgba(0,180,216,0.1);
+  border: 1px solid rgba(0,180,216,0.2);
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-weight: 500;
+}
+
+.mc-num {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--border);
+  line-height: 1;
+}
+
+.mc-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.mc-desc {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.8;
+  flex: 1;
+}
+
+.mc-bottom {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mc-tag {
+  font-size: 11px;
+  padding: 4px 10px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.mc-links {
+  display: flex;
+  gap: 8px;
+}
+
+.mc-link {
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  white-space: nowrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.mc-link-live {
+  background: var(--cyan);
+  color: #000;
+}
+
+.mc-link-live:hover { background: var(--cyan2); }
+
+.mc-link-code {
+  background: var(--bg3);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.mc-link-code:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
