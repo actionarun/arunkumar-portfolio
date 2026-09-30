@@ -24,15 +24,16 @@ export default function Hero() {
             </p>
             <div className="hero-btns">
               <a
-                href="https://drive.google.com/file/d/1VIV85cbdxjqFg2drk3AxiShVOGL6Mk6Z/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hV6lP8V0bJwVRtlkNzuN5DWo7BCziycj/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-cyan"
               >
                 View Resume
               </a>
+              
               <a
-                href="https://drive.google.com/uc?export=download&id=1VIV85cbdxjqFg2drk3AxiShVOGL6Mk6Z"
+                href="https://drive.google.com/file/d/1hV6lP8V0bJwVRtlkNzuN5DWo7BCziycj/view?usp=sharing"
                 className="btn-outline"
               >
                 Download CV
