@@ -5,8 +5,8 @@ const mainProjects = [
   {
     num: '01',
     title: 'Action Music',
-    badge: 'Full Stack',
-    desc: 'Full-stack music streaming platform with seamless audio playback, dynamic playlists, and intuitive search. Integrated Cloudinary for optimized audio and image storage.',
+    badge: 'MERN Stack',
+    desc: 'A full-stack music streaming platform featuring real-time audio playback, dynamic playlist management, and an intuitive search experience. Built with a modular React frontend and a scalable Node.js backend. Integrated Cloudinary for optimized audio and image delivery, significantly reducing media load times. Deployed on Netlify with a responsive, mobile-first UI.',
     tags: ['React.js', 'Node.js', 'MongoDB','Express.js','JWT','Brevo API', 'Cloudinary'],
     live: 'https://storied-lily-fc7a92.netlify.app/',
     frontend: 'https://github.com/actionarun/music-frontend',
@@ -16,8 +16,8 @@ const mainProjects = [
   {
     num: '02',
     title: 'SK Photography',
-    badge: 'Full Stack',
-    desc: 'Full-stack MERN app with public portfolio and JWT-authenticated admin dashboard for managing images, client enquiries, and studio settings. RESTful APIs, Cloudinary, bcrypt auth.',
+    badge: 'MERB Stack',
+    desc: 'A production-ready MERN application featuring a public photography portfolio and a secure JWT-authenticated admin dashboard. Admins can manage gallery images, client enquiries, and studio settings. Built with RESTful APIs following MVC architecture, Cloudinary for image storage, and bcrypt-based role-restricted authentication. Deployed on Netlify and Render with MongoDB Atlas.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'JWT', 'Express.js', 'Cloudinary'],
     live: 'https://sk-photo.netlify.app/',
     frontend: 'https://github.com/actionarun/sk-photography-frontend.git',
@@ -27,8 +27,8 @@ const mainProjects = [
   {
     num: '03',
     title: 'Notes Application',
-    badge: 'Full Stack',
-    desc: 'Full-stack MERN notes app with JWT auth and role-based access control (User/Admin). Cloudinary image uploads, MongoDB text-search with pagination. Brevo API email integration.',
+    badge: 'MERN Stack',
+    desc: 'A feature-rich MERN notes application with JWT-based authentication and role-based access control for both User and Admin roles. Supports Cloudinary image uploads, MongoDB full-text search with pagination, and production email workflows via Brevo API. Fully deployed on Render and Netlify with environment-based configuration and error handling.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'JWT', 'Express.js', 'Brevo API'],
     live: 'https://notesappfrontend.netlify.app/dashboard',
     frontend: 'https://github.com/actionarun/notesapp-frontend.git',
