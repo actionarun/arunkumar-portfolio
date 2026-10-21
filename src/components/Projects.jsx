@@ -39,6 +39,7 @@ const mainProjects = [
 ]
 
 
+
 function ProjectCard({ p }) {
   const [imgError, setImgError] = useState(false)
   const screenshotUrl = `https://api.microlink.io/?url=${encodeURIComponent(p.live)}&screenshot=true&meta=false&embed=screenshot.url`
