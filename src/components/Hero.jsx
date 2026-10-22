@@ -24,7 +24,7 @@ export default function Hero() {
             </p>
             <div className="hero-btns">
               <a
-                href="https://drive.google.com/file/d/1VE6VKSvRJsDKNF5uvW1asAJ4Re3LmyrS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZEY84ngfPk7qsGnNm1iq3apyEm47W0nQ/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-cyan"
@@ -33,7 +33,7 @@ export default function Hero() {
               </a>
               
               <a
-                href="https://drive.google.com/file/d/1VE6VKSvRJsDKNF5uvW1asAJ4Re3LmyrS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZEY84ngfPk7qsGnNm1iq3apyEm47W0nQ/view?usp=sharing"
                 className="btn-outline"
               >
                 Download CV
